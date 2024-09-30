@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    
+    background-color: rgba(183, 216, 207, 0.248);
+    
+}
+
+/* css for navbar ...................................................................................................... */
+/* header{
+    background-color: rgba(227, 175, 53, 0.21); 
+} */
+
+
+.risingsun-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(raisingsun.jpg);
+    background-color: rgba(241, 213, 89, 0.247); 
+    background-blend-mode: lighten;   
+}
+header nav {
+    /* border-bottom: 2px solid rgba(101, 160, 171, 0.537); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    margin: 0px 50px;
+    
+    /* background-color: rgb(23, 23, 107); */
+    
+}
+header .left p {
+   
+    font-size: 30px;
+    font-weight: bold;
+    /* color: rgb(179, 112, 20); */
+}
+
+header .right ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+header .right ul li{
+    margin: 0px 20px;
+    font-size: 20px;
+    /* color: white; */
+    text-decoration: none;
+}
+
+header .right ul li:hover{
+    margin: 0px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+header .right ul li a{
+    text-decoration: none;
+    /* color: white; */
+}
+
+header .icon-box ul {
+    list-style: none;
+    display: flex;
+}
+
+
+header .icon-box ul img {
+    height: 30px;
+    margin: 0px 10px;
+}
+
+
+
+
+/* css for persons image and about him ...................................................................................*/
+
+.main-section{
+    /* background-color: rgb(224, 206, 129);     */
+    /* color: white; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    /* border-bottom: 2px solid rgb(40, 40, 122); */
+}
+.left-section {
+    /* border: 5px solid red; */
+    width: 35%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.right-section{
+    /* border: 5px solid green; */
+    width: 35%;
+    display: flex;
+}
+
+.right-section img{
+    border-radius: 600px;
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 50px;
+    opacity: 0.9;
+    /* border: 1px solid rgb(132, 149, 245); */
+  
+}
+
+.btn_box a button {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: rgb(185, 185, 210);
+    background: rgb(0, 92, 128);
+}
+
+
+/* css for section (college).................................................................. */
+
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+
+}
+.aboutme{
+    margin-top: 50px;
+}
+.section-2 h1 {
+    /* color: white; */
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.college {
+    /* border: 3px solid yellow; */
+    display: flex;
+    /* border: 2px solid green; */
+    height: 50vh;
+    width: 80vw;
+    justify-content: space-around;
+    align-items: center;
+    /* color: white; */
+
+}
+
+.college .college-img {
+    margin-top: 20px;
+    /* border: 3px solid green; */
+    width: 35%;
+    height: 40vh;
+}
+
+.college .college-img img{
+    width: 25vw;
+    /* height: 40vh; */
+    border-radius: 50px;
+    /* margin-left: 300px; */
+
+}
+
+.college .college-discription {
+    /* border: 3px solid red; */
+    width: 35%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.college .college-discription h1 {
+    margin: 0;
+    padding: 0;
+
+}
